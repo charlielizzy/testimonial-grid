@@ -64,5 +64,10 @@ h1 {
 @media (max-width: 700px) {
     .container > div {
         grid-column: span 4;
+        
+    }
+
+    .container {
+        padding: 50px;
     }
 }
