@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(239, 241, 241);
+    font-family: 'Arial Narrow';
+
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat (2, 1fr);
+    gap: 36px;
+    padding-top: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.container > div {
+    min-height: 220px;
+    min-width: 36px;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.span-2-columns {
+    grid-column: span 2;
+}
+
+.span-2-rows {
+    grid-row: span 2;
+}
+
+.whitebg {
+    background: white
+}
+
+.purplebg {
+    background: rgb(81, 32, 158);
+}
+
+.charcoalbg {
+    background: rgb(37, 37, 49);
+}
+
+.graybg {
+    background: rgb(109, 103, 122)
+}
+
+.whitetext {
+    color: white;
+}
+
+.blacktext {
+    color: black;
+}
