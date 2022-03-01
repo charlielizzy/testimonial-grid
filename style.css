@@ -1,6 +1,7 @@
 body {
-    background-color: rgb(239, 241, 241);
-    font-family: 'Arial Narrow';
+    background-color: hsl(0 0% 81%);
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
 
 }
 
@@ -22,8 +23,9 @@ h1 {
 .container > div {
     min-height: 220px;
     min-width: 36px;
-    border-radius: 10px;
-    padding: 20px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+    border-radius: 8px;
+    padding: 32px;
     
 }
 
@@ -40,15 +42,15 @@ h1 {
 }
 
 .purplebg {
-    background: rgb(81, 32, 158);
+    background: #733FC8;
 }
 
 .charcoalbg {
-    background: rgb(37, 37, 49);
+    background: #19202D;
 }
 
 .graybg {
-    background: rgb(109, 103, 122)
+    background: #48556A;
 }
 
 .whitetext {
