@@ -2,6 +2,7 @@ body {
     background-color: hsl(0 0% 81%);
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 500;
+    font-size: 13px;
 
 }
 
@@ -15,9 +16,9 @@ h1 {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat (2, 1fr);
     gap: 36px;
-    padding-top: 80px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .container > div {
@@ -61,7 +62,7 @@ h1 {
     color: black;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px){
     .container > div {
         grid-column: span 4;
         
@@ -70,4 +71,36 @@ h1 {
     .container {
         padding: 50px;
     }
+}
+
+img {
+    width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.intro {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+p {
+    margin: 6px 0px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.ver-grad {
+    opacity: 50%;
+    font-size: 11px;
+}
+
+.quote-1 {
+
+}
+.quote-2 {
+opacity: 70%;
 }
